@@ -36,6 +36,7 @@ http://localhost/projet-tickets/page_login.html
 ### Liste des tickets :
 
 * Une fois connecté, vous serez redirigé vers la liste des tickets.
+* Vous pouvez afficher seulement les tickets ouverts, fermés ou tous les tickets avec leur bouton correspondant.
 * Vous pouvez afficher les détails d'un ticket en cliquant sur son titre.
 * Vous pouvez également ajouter un nouveau ticket en cliquant sur le bouton "Ajouter un Ticket".
 * Vous pouvez aussi trier la liste des tickets en fonction d'une colonne par ordre croissant ou décroissant en cliquand sur le titre de la colonne
@@ -43,7 +44,13 @@ http://localhost/projet-tickets/page_login.html
 ### Détails d'un ticket :
 
 * Sur la page des détails d'un ticket, vous pouvez voir les informations détaillées du ticket ainsi que les notes associées.
-* Selon vos autorisations, vous pourrez également modifier le statut du ticket ou ajouter une nouvelle note.
+* Vous pouvez modifier le statut du ticket.
+* Vous pouvez ajouter une nouvelle note si le ticket est ouvert.
+
+### Ajout d'un ticket :
+
+* Sur la page d'ajout d'un ticket, vous pouvez saisir un sujet, une priorité, un type de demande, un message et le lien vers une pièce jointe.
+* Après avoir soumis le formulaire, le ticket sera ajouté.
 
 ### Ajout d'une note :
 
