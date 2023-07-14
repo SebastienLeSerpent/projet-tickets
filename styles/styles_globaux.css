@@ -1,0 +1,33 @@
+/* Style du bouton de déconnexion */
+.logout-btn {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Style du bouton de déconnexion au survol */
+.logout-btn:hover {
+  background-color: #c82333;
+  cursor: pointer;
+}
+
+/* Style du corps de la page */
+body {
+  background-color: #f8f9fa;
+}
+
+/* Style de la barre de navigation */
+.navbar {
+  background-color: #343a40;
+  color: #fff;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style du texte du logo de la barre de navigation */
+.navbar-brand {
+  color: #fff;
+  font-weight: bold;
+}
