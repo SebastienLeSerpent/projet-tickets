@@ -21,6 +21,9 @@ git clone https://github.com/votre-utilisateur/projet-tickets.git
 
 * Démarrez un serveur local ou configurez un serveur web (Apache, Nginx, etc.) pour exécuter le projet.
 * Accédez à l'URL correspondant à l'application dans votre navigateur.
+```
+http://localhost/projet-tickets/page_login.html
+```
 
 ## Utilisation
 ### Inscription et connexion :
