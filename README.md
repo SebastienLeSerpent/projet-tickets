@@ -29,6 +29,9 @@ http://localhost/projet-tickets/page_login.html
 ### Inscription et connexion :
 
 * Sur la page d'accueil, vous connecter si vous avez déjà un compte.
+* Vous pouvez utiliser l'utilisateur suivant :
+  * Identifiant : aaa
+  * Mot de passe : aaa
 
 ### Liste des tickets :
 
