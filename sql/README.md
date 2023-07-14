@@ -28,7 +28,7 @@ CREATE DATABASE PROJET;
 
 * Utilisez la commande suivante pour importer le fichier SQL dans votre base de données :
 
-```css
+```
 mysql -u VOTRE_UTILISATEUR -p PROJET < CHEMIN_VERS_PROJET.sql
 ```
 
