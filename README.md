@@ -38,6 +38,7 @@ http://localhost/projet-tickets/page_login.html
 * Une fois connecté, vous serez redirigé vers la liste des tickets.
 * Vous pouvez afficher les détails d'un ticket en cliquant sur son titre.
 * Vous pouvez également ajouter un nouveau ticket en cliquant sur le bouton "Ajouter un Ticket".
+* Vous pouvez aussi trier la liste des tickets en fonction d'une colonne par ordre croissant ou décroissant en cliquand sur le titre de la colonne
 
 ### Détails d'un ticket :
 
