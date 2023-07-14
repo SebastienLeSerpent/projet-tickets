@@ -67,6 +67,10 @@ http://localhost/projet-tickets/page_login.html
 
 ![Photo screens/page_ajout_note.php](screens/page_ajout_note.png)
 
+## Schéma des interconnections entre les pages
+
+![Photo schema_des_interconnections.png](schema_des_interconnections.png)
+
 ## MCD
 ![Photo du MCD.png](MCD.png)
 
