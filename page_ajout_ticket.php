@@ -6,6 +6,45 @@ if (!isset($_SESSION['username'])) {
   header("Location: page_login.html");
   exit();
 }
+
+// Connexion à la base de données pour récupérer les valeurs de la table Priorite
+$dsn = 'mysql:host=localhost;dbname=PROJET;charset=utf8';
+$username = 'root';
+$password = '';
+
+try {
+  $conn = new PDO($dsn, $username, $password);
+  $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+  // Requête pour récupérer toutes les valeurs de la table Priorite
+  $queryPriorite = 'SELECT * FROM Priorite';
+
+  // Préparation de la requête
+  $stmtPriorite = $conn->prepare($queryPriorite);
+  $stmtPriorite->execute();
+
+  // Récupération des valeurs de la table Priorite
+  $prioriteOptions = $stmtPriorite->fetchAll(PDO::FETCH_ASSOC);
+} catch (PDOException $e) {
+  echo 'Erreur : ' . $e->getMessage();
+  exit();
+}
+
+// Connexion à la base de données pour récupérer les valeurs de la table TypeDemande
+try {
+  // Requête pour récupérer toutes les valeurs de la table TypeDemande
+  $queryTypeDemande = 'SELECT * FROM TypeDemande';
+
+  // Préparation de la requête
+  $stmtTypeDemande = $conn->prepare($queryTypeDemande);
+  $stmtTypeDemande->execute();
+
+  // Récupération des valeurs de la table TypeDemande
+  $typeDemandeOptions = $stmtTypeDemande->fetchAll(PDO::FETCH_ASSOC);
+} catch (PDOException $e) {
+  echo 'Erreur : ' . $e->getMessage();
+  exit();
+}
 ?>
 
 <!DOCTYPE html>
