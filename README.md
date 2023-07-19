@@ -31,12 +31,14 @@ http://localhost/projet-tickets/page_login.html
 * Vous pouvez vous connecter si vous avez déjà un compte.
 * Vous pouvez aussi accèder à la page d'inscription.
 
+![Photo screens/page_login.php](screens/page_login.png)
+
 ### Inscription : [page_inscription.html](page_inscription.html)
 
 * Vous pouvez vous inscrire si le compte que vous souhaitez créer n'existe pas déjà.
 * Vous pouvez aussi accèder à la page de connexion.
 
-![Photo screens/page_login.php](screens/page_login.png)
+![Photo screens/page_inscription.php](screens/page_inscription.png)
 
 ### Liste des tickets : [page_liste_tickets.php](page_liste_tickets.php)
 
