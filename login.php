@@ -24,13 +24,14 @@
     $result = $stmt->fetch(PDO::FETCH_ASSOC);
 
     if ($result) {
-      // Si les informations de connexion sont valides, enregistre le nom d'utilisateur dans la session
-      $_SESSION['username'] = $result['IdentifiantUser'];
-      // Retourne une réponse JSON indiquant le succès de la connexion et les informations de l'utilisateur
-      echo json_encode(array('success' => true, 'identifiant' => $result['IdentifiantUser'], 'motDePasse' => $result['MotDePasseUser']));
+        // Si les informations de connexion sont valides, enregistre l'ID de l'utilisateur dans la session
+        $_SESSION['user_id'] = $result['IdUser'];
+        $_SESSION['username'] = $result['IdentifiantUser'];
+        // Retourne une réponse JSON indiquant le succès de la connexion et les informations de l'utilisateur
+        echo json_encode(array('success' => true, 'identifiant' => $result['IdentifiantUser'], 'motDePasse' => $result['MotDePasseUser']));
     } else {
-      // Si les informations de connexion sont invalides, retourne une réponse JSON indiquant l'échec de la connexion
-      echo json_encode(array('success' => false));
+        // Si les informations de connexion sont invalides, retourne une réponse JSON indiquant l'échec de la connexion
+        echo json_encode(array('success' => false));
     }
   } catch(PDOException $e) {
     // En cas d'erreur lors de la connexion à la base de données, retourne une réponse JSON indiquant l'échec de la connexion
