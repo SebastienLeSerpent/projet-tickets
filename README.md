@@ -33,7 +33,7 @@ http://localhost/projet-tickets/page_login.html
 
 ![Photo screens/page_login.php](screens/page_login.png)
 
-### Inscription : [page_inscription.html](page_inscription.html)
+### Inscription : [page_inscription.php](page_inscription.php)
 
 * Vous pouvez vous inscrire si le compte que vous souhaitez créer n'existe pas déjà.
 * Vous pouvez aussi accèder à la page de connexion.
