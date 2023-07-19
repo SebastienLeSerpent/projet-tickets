@@ -26,12 +26,15 @@ http://localhost/projet-tickets/page_login.html
 ```
 
 ## Utilisation
-### Inscription et connexion : [page_login.html](page_login.html)
+### Connexion : [page_login.html](page_login.html)
 
-* Sur la page d'accueil, vous connecter si vous avez déjà un compte.
-* Vous pouvez utiliser l'utilisateur suivant :
-  * Identifiant : aaa
-  * Mot de passe : aaa
+* Vous pouvez vous connecter si vous avez déjà un compte.
+* Vous pouvez aussi accèder à la page d'inscription.
+
+### Inscription : [page_inscription.html](page_inscription.html)
+
+* Vous pouvez vous inscrire si le compte que vous souhaitez créer n'existe pas déjà.
+* Vous pouvez aussi accèder à la page de connexion.
 
 ![Photo screens/page_login.php](screens/page_login.png)
 
