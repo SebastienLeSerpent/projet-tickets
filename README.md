@@ -26,7 +26,7 @@ http://localhost/projet-tickets/page_login.html
 ```
 
 ## Utilisation
-### Connexion : [page_login.html](page_login.html)
+### Connexion : [page_login.php](page_login.php)
 
 * Vous pouvez vous connecter si vous avez déjà un compte.
 * Vous pouvez aussi accèder à la page d'inscription.
